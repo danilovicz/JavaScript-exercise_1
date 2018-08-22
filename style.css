@@ -1,0 +1,122 @@
+#wrapper{
+	background-image: url("bckg.jpg");
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.active{
+	background-color: rgb(223, 220, 220);
+	font-weight: 100;
+	color: red;
+	border-radius: 20px;
+}
+
+#game_window{
+	display: flex;
+	height: 65%;
+	width: 75%;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 30px 35px 50px 22px;
+}
+
+#player-0{
+	width: 50%;
+	
+	
+
+}
+
+#player-1{
+	width: 50%;
+}
+
+.upper_layer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 50%;
+}
+
+.text_box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.score_box{
+	font-size: 60px;
+	font-weight: 200;
+}
+
+#bottom_layer{
+	height: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#new_game{
+	position: absolute;
+	top: 24%;
+	left: 45%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+
+}
+#current_score{
+	text-align: center;
+}
+
+.score_num{
+	margin-top: 45%;
+	font-size: 20px;
+}
+
+#roll_dice{
+	position: absolute;
+	bottom: 35%;
+	left: 47%;
+	text-align: center;
+}
+
+#hold{
+	position: absolute;
+	bottom: 25%;
+	left: 48%;
+	text-align: center;
+}
+
+#dice{
+	position: absolute;
+	top:40%;
+	left: 47%;
+	box-shadow: 5px 5px 50px 5px;
+
+
+}
+
+#dice_img{
+	height: 80px;
+	width: 80px;
+}
+
+img {
+	height: 20px;
+	width: 30px;
+}
+
+.winner{
+	color: red;
+	font-size: 45px;
+	
+
+}
